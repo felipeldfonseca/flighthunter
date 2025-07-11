@@ -1,0 +1,1 @@
+"""Message templates for emails and notifications.""" 

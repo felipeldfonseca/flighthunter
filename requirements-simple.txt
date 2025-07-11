@@ -1,0 +1,29 @@
+# Web framework
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+
+# Database - simplified for development
+sqlmodel==0.0.14
+alembic==1.13.1
+# Using SQLite for development (no psycopg2 issues)
+
+# Redis
+redis==5.0.1
+
+# Authentication & Security
+pydantic==2.5.2
+python-jose[cryptography]==3.3.0
+passlib[bcrypt]==1.7.4
+python-multipart==0.0.6
+
+# External APIs
+requests==2.31.0  # Simple HTTP client
+httpx==0.25.2
+
+# Utility libraries
+python-dateutil==2.8.2
+pytz==2023.3
+jinja2==3.1.2
+
+# Configuration
+python-dotenv==1.0.0 

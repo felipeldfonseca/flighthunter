@@ -1,0 +1,42 @@
+# Web framework
+fastapi==0.116.0
+uvicorn[standard]==0.35.0
+
+# Database - SQLModel with PostgreSQL support
+sqlmodel==0.0.24
+alembic==1.16.4
+asyncpg==0.30.0
+
+# Redis
+redis==5.0.1
+
+# Authentication & Security
+pydantic>=2.11.0
+python-jose[cryptography]==3.3.0
+passlib[bcrypt]==1.7.4
+python-multipart==0.0.6
+
+# External APIs
+amadeus==8.0.0
+requests==2.31.0
+stripe==12.3.0
+sendgrid==6.11.0
+python-telegram-bot==20.8
+
+# HTTP client - Compatible with telegram bot
+httpx==0.26.0
+
+# Utility libraries
+python-dateutil==2.8.2
+pytz==2024.1
+jinja2==3.1.4
+
+# Background jobs
+celery==5.3.6
+flower==2.0.1
+
+# Monitoring
+sentry-sdk[fastapi]==2.32.0
+
+# Configuration
+python-dotenv==1.0.1 
